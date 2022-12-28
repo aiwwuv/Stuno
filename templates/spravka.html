@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="{% static 'css/spravka.css'%}">
+    <title>STUNO</title>
+</head>
+<body>
+    <header>
+        <div class="top-menu">
+            <ul class="uls">
+                <li><a class="clickMenu" href="{% url 'home' %}">Главная</a></li>
+                <li><a href="{% url 'table' %}">Таблица</a></li>
+                <li><a href="{% url 'spravka' %}">Справка</a></li>
+            </ul>
+        </div>
+        <div class="block-top-req">
+            <p><a href="/accounts/login">Войти в аккаунт</a></p>
+        </div>
+        <div class="block-top-req second">
+            <p><a href="{% url 'signup' %}">Зарегистрироваться</a></p>
+        </div>
+    </header>
+    <div>
+        <button class = "button1"><a href = "{% url 'game' %}" class = "sss">Об игре</a></button>
+        <button class = "button1"><a href = "{% url 'karti' %}" class = "sss">Описание карт</a></button>
+        <button class = "button1"><a href = "{% url 'prav' %}" class = "sss">Правила игры</a></button>
+    </div>
+</body>
+</html>

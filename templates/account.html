@@ -1,0 +1,23 @@
+{% extends 'base.html '%}
+
+{% block content %}
+<style>
+    .block-top-req {
+        visibility: hidden;
+    }
+
+    .greet {
+        margin-left: 75%;
+    }
+</style>
+{% if user.is_authenticated %}
+<label class="greet">
+    Доброго времени суток {{user.username}}
+</label>
+{% endif %}
+<form method="post" action="" class="acc">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn">Сохранить</button>
+</form>
+{% endblock content %}

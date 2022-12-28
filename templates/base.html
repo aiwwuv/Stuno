@@ -1,0 +1,29 @@
+{% load static %}
+<html>
+
+<head>
+    <title>STUNO</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <header>
+        <div class="top-menu">
+            <ul class="uls">
+                <li><a class="clickMenu" href="{% url 'home' %}">Главная</a></li>
+                <li><a href="{% url 'table' %}">Таблица</a></li>
+                <li><a href="{% url 'spravka' %}">Справка</a></li>
+            </ul>
+        </div>
+        <div class="block-top-req">
+            <p><a href="/accounts/login">Войти в аккаунт</a></p>
+        </div>
+        <div class="block-top-req second">
+            <p><a href="{% url 'signup' %}">Зарегистрироваться</a></p>
+        </div>
+    </header>
+    <div class="container">
+        {% block content %}
+        {% endblock content %}
+    </div>
+</body>
+</html>

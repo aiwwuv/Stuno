@@ -1,0 +1,214 @@
+body
+{
+    background-size: 100%;
+    background-image: url(/static/images/Новый\ проект\ \(1\).png);
+}
+
+header {
+    width: 1520px;
+    height: 80px;
+    background-color: #000000;
+}
+
+.top-menu {
+    width: 685px;
+    height: 80px;
+    float: left;
+}
+
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+
+.top-menu ul li a {
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family: "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 50px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.block-top-req {
+    width: 100px;
+    float: left;
+    margin-left: 400px;
+    height: 80px;
+}
+
+.block-top-req p {
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.block-top-req a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.block-top-req.second {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 80%;
+    margin-top: -4.5%;
+    cursor: pointer;
+}
+
+.block-top-req a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.info {
+    margin-left: 50px;
+    width: 800px;
+    margin-top: 100px;
+    font-family: "Exo2-Bold", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form {
+    position: absolute;
+    width: 700px;
+    left: 500px;
+    top: 220px;
+}
+
+select {
+    width: 400px;
+    padding: 9px 15px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: medium;
+    color: #872525;
+    background-color: white;
+}
+
+.acc {
+    position: absolute;
+    width: 700px;
+    left: 50px;
+    top: 120px;
+}
+
+input {
+    width: 400px;
+    padding: 9px 15px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+label {
+    font-family: 'Jeju Gothic', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+button {
+    position: absolute;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    transition: all .5s;
+}
+
+.btn_signup 
+{
+    width: 220px;
+    height: 40px;
+    top: 105%;
+}
+
+.btn 
+{
+    width: 140px;
+    height: 40px;
+    top: 110%;
+}
+
+.second 
+{
+    width: 240px;
+    height: 40px;
+    top: 110%;
+}
+
+.text 
+{
+    font-style: bold;
+    font-size: 35px;
+    margin-left: 600px;
+}
+
+th
+{
+    font-size: 20px;
+    color: white;
+}
+
+.clickMenu
+{
+    margin-left: -30px;
+}
+
+.text1
+{
+    font-size: 30px;
+    margin-left: 620px;
+    font-family: sans-serif;
+}
+
+.table1
+{
+    color: #000000;
+    font-weight: bold;
+}
+
+.ssulka
+{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button1
+{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    font-weight: bold;
+    margin-left: 240px;
+    margin-top: 250px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.sss
+{
+    text-decoration: none;
+    color: #000000;
+}

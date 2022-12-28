@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<p class="text1">Статистика игроков</p>
+<table border="2" width="1500px" align="center" rules="none">
+    <tr>
+        <th class = "table1">Игрок</th>
+        <th class = "table1">Тип игры</th>
+        <th class = "table1">Очки</th>
+        <th class = "table1">Время игры</th>
+    </tr>
+    {% for player in object_list %}
+    <tr>
+        <th><a href="{% url 'player_edit' player.pk %}" class = "ssulka">{{ player.user }}</a></th>
+        <th class = "ssulka">{{ player.type_game }}</th>
+        <th class = "ssulka">{{ player.points }}</th> 
+        <th class = "ssulka">{{ player.time_game }}</th>
+    </tr>
+    {% endfor %}
+    {% endblock content %}
